@@ -10,6 +10,34 @@ Passionate Web Developer focused on creating responsive, user-friendly, and visu
 
 ---
 
+## 🌟 Completed Tasks
+
+### ✅ Level 1 - Task 1: E-Commerce Landing Page
+
+A modern and responsive e-commerce landing page designed using HTML, CSS, and JavaScript.
+
+### ✨ Features
+
+* 🎨 Modern and Clean UI
+* 📱 Responsive Design
+* 🛍️ Product Showcase Section
+* 🔐 Login Page
+* ⚡ Interactive User Experience
+* 🖼️ Optimized Images and Assets
+* 🌐 Cross-Browser Compatibility
+
+---
+
+## 🛠️ Technologies Used
+
+* 🌐 HTML5
+* 🎨 CSS3
+* ⚙️ JavaScript
+* 🔧 Git & GitHub
+* 🚀 Netlify
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -21,34 +49,21 @@ OIBSIP/
 │   ├── style.css
 │   ├── script.js
 │   └── images/
+│
+└── README.md
 ```
 
 ---
 
-## 🌟 Completed Tasks
+## 🔗 Project Links
 
-### ✅ Level 1 - Task 1: E-Commerce Landing Page
+### 📁 GitHub Repository
 
-A modern and responsive e-commerce landing page designed using HTML, CSS, and JavaScript.
+https://github.com/Manukonda-Teja-Harsha/OIBSIP
 
-### 🔹 Features
+### 🌍 Live Demo
 
-* 🎨 Modern UI Design
-* 📱 Fully Responsive Layout
-* 🛍️ Product Showcase Section
-* 🔐 Login Page
-* ⚡ Smooth User Experience
-* 🖼️ Optimized Images and Assets
-* 🌐 Cross-Browser Compatibility
-
----
-
-## 🛠️ Technologies Used
-
-* 🌐 HTML5
-* 🎨 CSS3
-* ⚙️ JavaScript
-* 📂 Git & GitHub
+oibsip-ecommerce-landing-page.netlify.app
 
 ---
 
@@ -57,35 +72,22 @@ A modern and responsive e-commerce landing page designed using HTML, CSS, and Ja
 Through this project, I gained practical experience in:
 
 * Responsive Web Design
-* CSS Layout Techniques
-* JavaScript DOM Manipulation
-* Project Deployment
-* Version Control using Git & GitHub
-
----
-
-## 🔗 Project Links
-
-### 📁 GitHub Repository
-
-Add your repository link here.
-
-### 🌍 Live Demo
-
-Add your Netlify deployment link here.
-
----
-
-## 📸 Project Preview
-
-Add screenshots of your project here after deployment.
+* CSS Layout and Styling
+* JavaScript Functionality
+* Git & GitHub Version Control
+* Website Deployment using Netlify
 
 ---
 
 ## 📬 Connect With Me
 
-* 💼 LinkedIn: Add your LinkedIn profile
-* 📧 Email: Add your email
+### 💼 LinkedIn
+
+https://www.linkedin.com/in/teja-harsha
+
+### 🐙 GitHub
+
+https://github.com/Manukonda-Teja-Harsha
 
 ---
 
