@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHEFFY - Kitchen Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- TOP BAR -->
+  <div class="top-bar" id="topBar">
+    <button class="top-btn" onclick="goLogin()">
+      <i class="fa fa-user"></i>
+    </button>
+    <button class="top-btn shipping" id="shippingBtn">
+       Free Shipping
+    </button>
+  </div>
+
+  <!-- LOGO -->
+  <div class="logo-section">
+    <i class="fa-solid fa-kitchen-set logo"></i>
+    <h1>CHEFFY</h1>
+    <p>Your Kitchen Helper</p>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="javascript:void(0)" onclick="showHome()">HOME</a></li>
+      <li><a href="javascript:void(0)" onclick="goShop(this)">SHOP</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO BANNER -->
+  <section class="hero-banner">
+    <h1 class="eco-title">ECO ESSENTIALS</h1>
+    <div class="hero-image">
+      <img src="images/hero-index.jpg" alt="Kitchen Banner">
+    </div>
+    <a class="shop-btn" href="javascript:void(0)" onclick="goShop(this)">SHOP NOW</a>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="stat-card">
+      <h2>10K+</h2>
+      <p>Happy Customers</p>
+    </div>
+    <div class="stat-card">
+      <h2>250+</h2>
+      <p>Kitchen Products</p>
+    </div>
+    <div class="stat-card">
+      <h2>50+</h2>
+      <p>Cities Served</p>
+    </div>
+  </section>
+
+  <!-- FEATURE 1 -->
+  <section class="feature-row">
+    <div class="feature-image">
+      <img src="images/kitchen1-index.jpg" alt="Modern kitchen cooking setup">
+    </div>
+    <div class="feature-content">
+      <h2>Cook Smarter Everyday</h2>
+      <p>
+        Discover premium cookware,
+        innovative tools and accessories
+        crafted for modern kitchens.
+      </p>
+      <a href="javascript:void(0)" class="feature-btn" onclick="goShop(this)">Explore Collection</a>
+    </div>
+  </section>
+
+  <!-- FEATURE 2 -->
+  <section class="feature-row reverse">
+    <div class="feature-image">
+      <img src="images/promo-silicone-index.jpg" alt="Chef preparing fresh ingredients">
+    </div>
+    <div class="feature-content">
+      <h2>Built For Every Home Chef</h2>
+      <p>
+        Whether you are a beginner or
+        a professional, CHEFFY helps
+        you cook with confidence.
+      </p>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="benefits">
+    <h2>Why Choose CHEFFY?</h2>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <i class="fa-solid fa-award"></i>
+        <h3>Premium Quality</h3>
+        <p>Carefully selected products built for durability.</p>
+      </div>
+      <div class="benefit-card">
+        <i class="fa-solid fa-truck-fast"></i>
+        <h3>Fast Delivery</h3>
+        <p>Quick and reliable shipping.</p>
+      </div>
+      <div class="benefit-card">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h3>Trusted Brand</h3>
+        <p>Loved by thousands of customers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT CATEGORY -->
+  <section class="category">
+    <h2>PRODUCT CATEGORY</h2>
+    <div class="category-grid">
+      <a href="javascript:void(0)" onclick="goShop(this)">
+        <img src="images/siliconecookwareimg-index.jpg" alt="Silicone cooking utensils">
+        <p>SILICONE COOKING</p>
+      </a>
+      <a href="javascript:void(0)" onclick="goShop(this)">
+        <img src="images/carawaycookware-index.jpg" alt="Caraway cookware set">
+        <p>CARAWAY COOKWARE</p>
+      </a>
+      <a href="javascript:void(0)" onclick="goShop(this)">
+        <img src="images/SCHNEID-UNISON-image.jpg" alt="Schneid Unison kitchen tools">
+        <p>SCHNEID UNISON</p>
+      </a>
+      <a href="javascript:void(0)" onclick="goShop(this)">
+        <img src="images/coza-hoop-index.jpg" alt="Coza hoop cookware">
+        <p>COZA HOOP</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- TOP SELLERS -->
+  <section class="top-sellers">
+    <h2>TOP SELLER</h2>
+    <div class="product-grid">
+      <div class="product-item">
+        <div class="product-card" onclick="goShop(this)">
+          <img src="images/placeperfectpot-index.jpg" alt="Place Perfect Pot">
+        </div>
+        <p class="product-name">PLACE PERFECT POT</p>
+        <p class="product-price">2600</p>
+      </div>
+      <div class="product-item">
+        <div class="product-card" onclick="goShop(this)">
+          <img src="images/HAYSOWDENKETTLE-index.jpg" alt="Hay Sowden Kettle">
+        </div>
+        <p class="product-name">HAY SOWDEN KETTLE</p>
+        <p class="product-price">3100</p>
+      </div>
+      <div class="product-item">
+        <div class="product-card" onclick="goShop(this)">
+          <img src="images/CANDLEWAXMELTER-index.jpg" alt="Candle wax melter">
+        </div>
+        <p class="product-name">CANDLE WAX MELTER</p>
+        <p class="product-price">2800</p>
+      </div>
+      <div class="product-item">
+        <div class="product-card" onclick="goShop(this)">
+          <img src="images/kitchenknife-index.jpg" alt="Kitchen knife">
+        </div>
+        <p class="product-name">KITCHEN KNIFE</p>
+        <p class="product-price">1900</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS -->
+  <section id="featuredSection" class="featured-products">
+    <h2>FEATURED PRODUCTS</h2>
+    <div class="featured-grid">
+      <div class="featured-card" onclick="goShop(this)">
+        <img src="images/silioconespatulla-index.jpg" alt="Silicone spatula">
+        <p class="featured-name">Silicone Spatula</p>
+      </div>
+      <div class="featured-card" onclick="goShop(this)">
+        <img src="images/kitchenknife-index.jpg" alt="Kitchen knife">
+        <p class="featured-name">Kitchen Knife</p>
+      </div>
+      <div class="featured-card" onclick="goShop(this)">
+        <img src="images/cookingpan-index.jpg" alt="Cooking pan">
+        <p class="featured-name">Cooking Pan</p>
+      </div>
+      <div class="featured-card" onclick="goShop(this)">
+        <img src="images/cuttingborad-index.jpg" alt="Cutting board">
+        <p class="featured-name">Cutting Board</p>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="show-more" onclick="goShop(this)">SHOW MORE</a>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>About CHEFFY</h2>
+        <p>
+          CHEFFY provides premium kitchen
+          essentials designed to improve
+          your cooking experience through
+          innovation, quality and style.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="images/kitchen2-index.jpg" alt="Chef cooking in a bright kitchen">
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <h3>★★★★★</h3>
+        <p>Excellent quality cookware.</p>
+        <span>- Rahul</span>
+      </div>
+      <div class="testimonial-card">
+        <h3>★★★★★</h3>
+        <p>Fast delivery and service.</p>
+        <span>- Priya</span>
+      </div>
+      <div class="testimonial-card">
+        <h3>★★★★★</h3>
+        <p>My favourite kitchen store.</p>
+        <span>- Arjun</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMO -->
+  <section id="promoSection" class="promo">
+    <div class="promo-card">
+      <img src="images/siliconecookwareimg-index.jpg" alt="Silicone cookware" onclick="goShop(this)">
+      <h3>SILICONE COOKWARE</h3>
+      <a class="shop-btn" href="javascript:void(0)" onclick="goShop(this)">CHECK IT OUT !</a>
+    </div>
+    <div class="promo-card">
+      <img src="images/carawaycookware-index.jpg" alt="Caraway cookware" onclick="goShop(this)">
+      <h3>CARAWAY COOKWARE</h3>
+      <a class="shop-btn" href="javascript:void(0)" onclick="goShop(this)">CHECK IT OUT !</a>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>Do you offer free shipping?</summary>
+      <p>Yes, on selected products.</p>
+    </details>
+    <details>
+      <summary>Can I return products?</summary>
+      <p>Returns accepted within 7 days.</p>
+    </details>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="cta-text">
+      <h2>EXPERIENCE BETTER COOKING WITH OUR PREMIUM TOOLS</h2>
+      <button onclick="goShop(this)">SHOP NOW</button>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h4>LINKS</h4>
+        <p>Home</p>
+        <p>About</p>
+        <p>Collection</p>
+        <p>Shop</p>
+      </div>
+      <div>
+        <h4>LET'S TALK</h4>
+        <p>+91 7893136770</p>
+        <p>info@cheffy.com</p>
+      </div>
+      <div class="social-links">
+        <h4>FOLLOW US</h4>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+
