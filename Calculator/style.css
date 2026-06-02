@@ -60,14 +60,14 @@ button {
 }
 
 /* NUMBER BUTTONS */
-button:not(.op):not(.eq):not(.clear) {
+/* number buttons */
+.num {
     background: #334155;
 }
 
-button:not(.op):not(.eq):not(.clear):hover {
+.num:hover {
     background: #475569;
 }
-
 /* OPERATORS */
 .op {
     background: #2563eb;
