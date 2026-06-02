@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    font-family: Arial;
+}
+
+.calculator {
+    width: 360px;
+    background: rgba(15, 23, 42, 0.95);
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+/* DISPLAY */
+#display {
+    height: 100px;
+    background: #0b1220;
+    color: white;
+    font-size: 2.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+    scrollbar-width: none;
+}
+
+#display::-webkit-scrollbar {
+    display: none;
+}
+
+/* GRID */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* BASE BUTTON */
+button {
+    height: 65px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+}
+
+/* NUMBER BUTTONS */
+button:not(.op):not(.eq):not(.clear) {
+    background: #334155;
+}
+
+button:not(.op):not(.eq):not(.clear):hover {
+    background: #475569;
+}
+
+/* OPERATORS */
+.op {
+    background: #2563eb;
+}
+
+.op:hover {
+    background: #3b82f6;
+}
+
+/* EQUAL BUTTON */
+.eq {
+    background: #22c55e;
+}
+
+.eq:hover {
+    background: #16a34a;
+}
+
+/* CLEAR BUTTON */
+.clear {
+    background: #ef4444;
+}
+
+.clear:hover {
+    background: #dc2626;
+}
+
+/* ZERO BUTTON */
+.zero {
+    grid-column: span 2;
+}
+
+/* CLICK EFFECT */
+button:active {
+    transform: scale(0.95);
+}
