@@ -16,7 +16,7 @@ Passionate Web Developer focused on creating responsive, user-friendly, and visu
 
 A modern and responsive e-commerce landing page designed using HTML, CSS, and JavaScript.
 
-### ✨ Features
+#### ✨ Features
 
 * 🎨 Modern and Clean UI
 * 📱 Responsive Design
@@ -25,6 +25,23 @@ A modern and responsive e-commerce landing page designed using HTML, CSS, and Ja
 * ⚡ Interactive User Experience
 * 🖼️ Optimized Images and Assets
 * 🌐 Cross-Browser Compatibility
+
+---
+
+### ✅ Level 2 - Task 1: Calculator
+
+A fully functional web-based calculator built using HTML, CSS, and JavaScript that performs basic arithmetic operations through an interactive user interface.
+
+#### ✨ Features
+
+* ➕ Addition
+* ➖ Subtraction
+* ✖️ Multiplication
+* ➗ Division
+* 🧮 Interactive Calculator Interface
+* 📱 Responsive Design
+* ⚡ Fast and Accurate Calculations
+* 🎨 Clean and Modern UI
 
 ---
 
@@ -50,6 +67,11 @@ OIBSIP/
 │   ├── script.js
 │   └── images/
 │
+├── Calculator/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
 └── README.md
 ```
 
@@ -61,21 +83,29 @@ OIBSIP/
 
 https://github.com/Manukonda-Teja-Harsha/OIBSIP
 
-### 🌍 Live Demo
+### 🌍 Live Demos
 
-oibsip-ecommerce-landing-page.netlify.app
+#### E-Commerce Landing Page
+
+https://oibsip-ecommerce-landing-page.netlify.app
+
+#### Calculator
+
+https://oibsip-calculator-web.netlify.app
 
 ---
 
 ## 🎯 Learning Outcomes
 
-Through this project, I gained practical experience in:
+Through these projects, I gained practical experience in:
 
 * Responsive Web Design
-* CSS Layout and Styling
-* JavaScript Functionality
+* HTML5, CSS3 & JavaScript Development
+* User Interface Design
+* DOM Manipulation
 * Git & GitHub Version Control
 * Website Deployment using Netlify
+* Problem Solving and Debugging
 
 ---
 
