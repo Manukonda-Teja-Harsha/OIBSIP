@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="converter-card">
+    <h1>Temperature Converter</h1>
+    <p>Enter a temperature, choose the input unit, and press Convert.</p>
+
+    <div class="field-group">
+      <label for="temperatureInput">Temperature</label>
+      <input id="temperatureInput" type="text" placeholder="e.g. 32" aria-label="Temperature input" autocomplete="off" autocorrect="off" spellcheck="false">
+      <small class="hint">Numbers only. Kelvin must be 0 or higher.</small>
+    </div>
+
+    <fieldset class="unit-group">
+      <legend>Input unit</legend>
+      <label><input type="radio" name="inputUnit" value="celsius" checked> Celsius</label>
+      <label><input type="radio" name="inputUnit" value="fahrenheit"> Fahrenheit</label>
+      <label><input type="radio" name="inputUnit" value="kelvin"> Kelvin</label>
+    </fieldset>
+
+    <button id="convertButton" type="button">Convert</button>
+    <div id="result" class="result" aria-live="polite"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
