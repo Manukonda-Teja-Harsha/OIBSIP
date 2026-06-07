@@ -1,15 +1,3 @@
-# 🚀 OIBSIP - Oasis Infobyte Internship
-
-Welcome to my Oasis Infobyte Internship project repository. This repository contains the tasks completed as part of the **Web Development and Designing Internship Program**.
-
-## 👨‍💻 About Me
-
-**Name:** Teja Harsha Manukonda
-
-Passionate Web Developer focused on creating responsive, user-friendly, and visually appealing web applications using modern web technologies.
-
----
-
 ## 🌟 Completed Tasks
 
 ### ✅ Level 1 - Task 1: E-Commerce Landing Page
@@ -25,6 +13,23 @@ A modern and responsive e-commerce landing page designed using HTML, CSS, and Ja
 * ⚡ Interactive User Experience
 * 🖼️ Optimized Images and Assets
 * 🌐 Cross-Browser Compatibility
+
+---
+
+### ✅ Level 1 - Task 2: Portfolio Website
+
+A personal portfolio website showcasing my skills, projects, education, resume, and contact information.
+
+#### ✨ Features
+
+* 👨‍💻 Professional Introduction Section
+* 🎨 Modern and Responsive UI Design
+* 🛠️ Skills Showcase
+* 📂 Projects Section
+* 📄 Resume Download Option
+* 📞 Contact Information Section
+* ⚡ Smooth User Experience
+* 📱 Mobile-Friendly Layout
 
 ---
 
@@ -45,16 +50,6 @@ A fully functional web-based calculator built using HTML, CSS, and JavaScript th
 
 ---
 
-## 🛠️ Technologies Used
-
-* 🌐 HTML5
-* 🎨 CSS3
-* ⚙️ JavaScript
-* 🔧 Git & GitHub
-* 🚀 Netlify
-
----
-
 ## 📂 Repository Structure
 
 ```text
@@ -63,6 +58,12 @@ OIBSIP/
 ├── Landing_Page/
 │   ├── index.html
 │   ├── login.html
+│   ├── style.css
+│   ├── script.js
+│   └── images/
+│
+├── Portfolio/
+│   ├── index.html
 │   ├── style.css
 │   ├── script.js
 │   └── images/
@@ -89,6 +90,10 @@ https://github.com/Manukonda-Teja-Harsha/OIBSIP
 
 https://oibsip-ecommerce-landing-page.netlify.app
 
+#### Portfolio Website
+
+https://oibsip-teja-portfolio.netlify.app
+
 #### Calculator
 
 https://oibsip-calculator-web.netlify.app
@@ -105,20 +110,5 @@ Through these projects, I gained practical experience in:
 * DOM Manipulation
 * Git & GitHub Version Control
 * Website Deployment using Netlify
+* Portfolio Development
 * Problem Solving and Debugging
-
----
-
-## 📬 Connect With Me
-
-### 💼 LinkedIn
-
-https://www.linkedin.com/in/teja-harsha
-
-### 🐙 GitHub
-
-https://github.com/Manukonda-Teja-Harsha
-
----
-
-⭐ Thank you for visiting my repository. Feedback and suggestions are always welcome!
