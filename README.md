@@ -89,6 +89,23 @@ A fully functional web-based calculator built using HTML, CSS, and JavaScript th
 
 ---
 
+### ✅ Level 2 - Task 2: Tribute Page
+
+A tribute webpage dedicated to Elon Musk, showcasing his life, achievements, innovations, and contributions to technology, space exploration, and entrepreneurship.
+
+#### ✨ Features
+
+* 🚀 Elon Musk Biography
+* 📅 Career Timeline
+* 🏆 Major Achievements
+* 💡 Inspirational Quotes
+* 🖼️ Image Gallery
+* 🌌 Modern Tech-Themed Design
+* 📱 Responsive Layout
+* ⚡ Smooth User Experience
+
+---
+
 ## 🛠️ Technologies Used
 
 * 🌐 HTML5
@@ -129,6 +146,12 @@ OIBSIP/
 │   ├── style.css
 │   └── script.js
 │
+├── Tribute_Page/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── images/
+│
 └── README.md
 ```
 
@@ -158,6 +181,10 @@ https://oibsip-temp-converter.netlify.app
 
 https://oibsip-calculator-web.netlify.app
 
+#### Elon Musk Tribute Page
+
+https://oibsip-elon-musk-tribute.netlify.app
+
 ---
 
 ## 🎯 Learning Outcomes
@@ -173,6 +200,8 @@ Through these projects, I gained practical experience in:
 * Portfolio Development
 * Temperature Conversion Logic
 * Form Validation
+* Interactive Web Application Development
+* Tribute Page Design
 * Problem Solving and Debugging
 
 ---
@@ -186,10 +215,6 @@ https://www.linkedin.com/in/teja-harsha
 ### 🐙 GitHub
 
 https://github.com/Manukonda-Teja-Harsha
-
-### 📧 Email
-
-[your-email@example.com](mailto:your-email@example.com)
 
 ---
 
