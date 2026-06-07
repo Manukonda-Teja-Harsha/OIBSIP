@@ -1,3 +1,25 @@
+# 🚀 OIBSIP - Oasis Infobyte Internship
+
+Welcome to my Oasis Infobyte Internship project repository. This repository contains the tasks completed as part of the **Web Development and Designing Internship Program**.
+
+## 👨‍💻 About Me
+
+**Name:** Teja Harsha Manukonda
+
+Passionate Web Developer focused on creating responsive, user-friendly, and visually appealing web applications using modern web technologies.
+
+### 💡 Skills
+
+* HTML5
+* CSS3
+* JavaScript
+* Java
+* Python
+* Responsive Web Design
+* Git & GitHub
+
+---
+
 ## 🌟 Completed Tasks
 
 ### ✅ Level 1 - Task 1: E-Commerce Landing Page
@@ -33,6 +55,23 @@ A personal portfolio website showcasing my skills, projects, education, resume, 
 
 ---
 
+### ✅ Level 1 - Task 3: Temperature Converter Website
+
+A responsive temperature converter web application built using HTML, CSS, and JavaScript that allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin.
+
+#### ✨ Features
+
+* 🌡️ Celsius to Fahrenheit Conversion
+* 🌡️ Fahrenheit to Celsius Conversion
+* 🌡️ Kelvin Conversion Support
+* ⚡ Instant Temperature Calculation
+* 🎨 Modern and User-Friendly Interface
+* 📱 Fully Responsive Design
+* ❌ Input Validation
+* 🔄 Reset Functionality
+
+---
+
 ### ✅ Level 2 - Task 1: Calculator
 
 A fully functional web-based calculator built using HTML, CSS, and JavaScript that performs basic arithmetic operations through an interactive user interface.
@@ -47,6 +86,18 @@ A fully functional web-based calculator built using HTML, CSS, and JavaScript th
 * 📱 Responsive Design
 * ⚡ Fast and Accurate Calculations
 * 🎨 Clean and Modern UI
+
+---
+
+## 🛠️ Technologies Used
+
+* 🌐 HTML5
+* 🎨 CSS3
+* ⚙️ JavaScript
+* ☕ Java
+* 🐍 Python
+* 🔧 Git & GitHub
+* 🚀 Netlify
 
 ---
 
@@ -67,6 +118,11 @@ OIBSIP/
 │   ├── style.css
 │   ├── script.js
 │   └── images/
+│
+├── Temperature_Converter/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
 ├── Calculator/
 │   ├── index.html
@@ -94,6 +150,10 @@ https://oibsip-ecommerce-landing-page.netlify.app
 
 https://oibsip-teja-portfolio.netlify.app
 
+#### Temperature Converter Website
+
+https://oibsip-temp-converter.netlify.app
+
 #### Calculator
 
 https://oibsip-calculator-web.netlify.app
@@ -111,4 +171,26 @@ Through these projects, I gained practical experience in:
 * Git & GitHub Version Control
 * Website Deployment using Netlify
 * Portfolio Development
+* Temperature Conversion Logic
+* Form Validation
 * Problem Solving and Debugging
+
+---
+
+## 📬 Connect With Me
+
+### 💼 LinkedIn
+
+https://www.linkedin.com/in/teja-harsha
+
+### 🐙 GitHub
+
+https://github.com/Manukonda-Teja-Harsha
+
+### 📧 Email
+
+[your-email@example.com](mailto:your-email@example.com)
+
+---
+
+⭐ Thank you for visiting my repository. Feedback and suggestions are always welcome!
