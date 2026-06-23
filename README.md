@@ -135,6 +135,20 @@ A responsive task management web application that helps users organize daily act
 
 ---
 
+### ✅ Level 2 - Task 4: Login Authentication System
+
+A secure login authentication web application developed using React.js, JavaScript, HTML, and CSS. The application allows users to register, log in, access a protected dashboard, and manage authentication sessions using Local Storage.
+
+* ✨ Features
+* 🔐 User Registration
+* 🔑 Secure User Login
+* 👤 Protected Dashboard Access
+* 🚪 Logout Functionality
+* ✅ Form Validation
+* 💾 Local Storage Authentication
+* 📱 Responsive Design
+* ⚡ Modern User Interface
+
 ## 📂 Repository Structure
 
 ```text
@@ -175,6 +189,12 @@ OIBSIP/
 │   ├── script.js
 │   └── images/
 │
+├── Login_Authentication/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   ├── vite.config.js
+│   └── README.md
 └── README.md
 ```
 
@@ -211,6 +231,10 @@ https://oibsip-elon-musk-tribute.netlify.app
 #### To-Do Web App
 
 https://oibsip-todo-webapp.netlify.app
+
+#### Login Authentication System
+
+https://oibsip-login-authentication.netlify.app
 
 ---
 
