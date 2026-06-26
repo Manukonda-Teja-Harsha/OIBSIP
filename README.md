@@ -134,7 +134,7 @@ A secure login authentication web application developed using React.js, JavaScri
 * 💾 Local Storage Authentication
 * 📱 Responsive Design
 * ⚡ Modern User Interface
-  
+
 ---
 
 ## 🛠️ Technologies Used
