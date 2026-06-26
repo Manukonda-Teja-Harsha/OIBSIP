@@ -121,6 +121,8 @@ A responsive task management web application that helps users organize daily act
 * 📱 Responsive Design
 * ⚡ Smooth User Experience
 
+---
+
 ### ✅ Level 2 - Task 4: Login Authentication System
 
 A secure login authentication web application developed using React.js, JavaScript, HTML, and CSS. The application allows users to register, log in, access a protected dashboard, and manage authentication sessions using Local Storage.
