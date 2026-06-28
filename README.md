@@ -138,6 +138,26 @@ A secure login authentication web application developed using React.js, JavaScri
 * ⚡ Modern User Interface
 
 ---
+### ✅ Level 3 : Pizza Delivery Web Application
+
+A full-stack Pizza Delivery web application built using **React.js**, **Node.js**, **Express.js**, and **MongoDB**. The application enables users to browse pizzas, customize orders, add items to the cart, and place orders through a responsive interface. It also includes a simple admin dashboard to manage orders and inventory.
+
+#### ✨ Features
+
+* 🍕 Browse Pizza Menu
+* 🥖 Select Pizza Base
+* 🥫 Choose Sauce
+* 🧀 Choose Cheese
+* 🥗 Add Veggie Toppings
+* 🛒 Shopping Cart
+* 📦 Place Orders
+* 👤 User Registration & Login
+* 👨‍💼 Admin Dashboard
+* 📋 Order Management
+* 📊 Inventory Management
+* 📱 Responsive Design
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -196,6 +216,10 @@ OIBSIP/
 │   ├── public/
 │   ├── package.json
 │   ├── vite.config.js
+│   └── README.md
+├── Pizza_Delivery_Website/
+│   ├── frontend/
+│   ├── backend/
 │   └── README.md
 └── README.md
 ```
@@ -259,6 +283,13 @@ Through these projects, I gained practical experience in:
 * Local Storage Implementation
 * CRUD Operations
 * Problem Solving and Debugging
+* React.js Development
+* Node.js & Express.js Backend Development
+* MongoDB Database Integration
+* REST API Development
+* Authentication & Authorization
+* Full-Stack Application Development
+* Inventory and Order Management
 
 ---
 
